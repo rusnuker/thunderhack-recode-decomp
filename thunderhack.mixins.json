@@ -1,0 +1,51 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.mrzak34.thunderhack.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "IClientConnection",
+    "IEntity",
+    "IEntityVelocityUpdateS2CPacket",
+    "IExplosionS2CPacket",
+    "IPlayerInteractEntityC2SPacket",
+    "IPlayerMoveC2SPacket",
+    "IPlayerPositionLookS2CPacket",
+    "ISignBlockEntity",
+    "IUpdateSignC2SPacket",
+    "MixinClientConnection",
+    "MixinEntity",
+    "MixinPlayerEntity",
+    "MixinPlayerInteractEntityC2SPacket",
+    "MixinServerPlayerEntity"
+  ],
+  "client": [
+    "IClientPlayerInteractionManager",
+    "IInGameHud",
+    "IMinecraftClient",
+    "ISignEditScreen",
+    "KeyboardMixin",
+    "MixinBackgroundRenderer",
+    "MixinClientPlayerEntity",
+    "MixinClientWorld",
+    "MixinEnchantingTableBlockEntityRenderer",
+    "MixinEntityRenderer",
+    "MixinGameRenderer",
+    "MixinIngameHud",
+    "MixinInGameOverlayRenderer",
+    "MixinMapRenderer",
+    "MixinMinecraftClient",
+    "MixinMouse",
+    "MixinMovementInput",
+    "MixinParticleManager",
+    "MixinRenderTickCounter",
+    "MixinSignBlockEntityRenderer",
+    "MixinTitleScreen",
+    "MixinWorldRenderer",
+    "ThunderHackMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "refmap": "thunderhack-refmap.json"
+}
