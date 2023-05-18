@@ -2,4 +2,4 @@
 
 Ой, а чё это мы, а?
 
-[img]https://i.imgur.com/xwMi6jI.png[/img]
+[image]https://i.imgur.com/xwMi6jI.png[/image]
